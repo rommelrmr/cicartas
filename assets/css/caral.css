@@ -1,0 +1,40 @@
+/* 
+    Document   : caral.css
+    Created on : 19/10/2013, 02:34:20 PM
+    Author     : Rommel PHP
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table tr td.monto{
+    text-align: right !important;
+}
+
+table thead tr th.titulo{
+    text-align: right !important;
+    font-weight: bold;
+}
+
+
+table tr th.detalle{
+    text-align: right !important;
+    font-weight: normal;
+}
+
+
+table tfoot td.description{
+    text-align: left !important;
+    font-weight: bold;
+}
+table tfoot td.total{
+    text-align: right !important;
+    font-weight: bold;
+}
+
+span.font12{
+    font-size: 12px!important;
+}
+
+strong.italic{
+    font-style: italic!important;
+}

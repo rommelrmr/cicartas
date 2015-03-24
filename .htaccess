@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+ RewriteEngine on
+ RewriteRule ^(.+)\.htm$ /cicartas/$1.php [R,NC]
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$ /cicartas/index.php/$1 [L]
